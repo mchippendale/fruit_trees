@@ -1,7 +1,14 @@
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+       
+       .heading-container{
+        display: grid;
+        place-items: center;
+        height: 100px;
+      }
+
        #map {
-        height: 80%;
+        height: 70%;
         width: 80%;
         margin: 0 auto;
         margin-top: 50px;
@@ -30,3 +37,6 @@
       .custom-map-control-button:hover {
         background: #ebebeb;
       }
+
+      
+     

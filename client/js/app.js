@@ -1,4 +1,3 @@
-//Call Geocode
 
 var map 
 
@@ -31,7 +30,7 @@ function initMap() {
     // map options    
     var options = {
             center: { lat: -37.8136, lng: 144.9631},
-            zoom: 8
+            zoom: 10
         }
     // New map
     map = new 
@@ -74,7 +73,7 @@ function geoCode(e) {
   axios.get("https://maps.googleapis.com/maps/api/geocode/json", {
     params:{
       address: location,
-      key: "YOUR_API_KEY"
+      key: "AIzaSyDIz1i5QHR6NNLfiD9GL7MwA9IQe2bju8U"
     }
   })
   .then(function(res){
